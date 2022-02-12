@@ -1,0 +1,27 @@
+.align {
+    list-style: none;
+    width: 100%;
+    height: 15px;
+}
+
+.align li {
+    display: inline;
+    margin-right: 45px;
+}
+
+.sticky {
+    position: sticky;
+    top: -1px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /*font-size: 15px;
+    line-height: 1.5em;*/
+    font-weight: bold;
+}
+
+.align li:hover{
+    text-decoration: underline;
+}
