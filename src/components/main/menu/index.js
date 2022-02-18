@@ -1,7 +1,8 @@
 import './index.css';
 
-const handleClick = function (key) {
-    document.getElementById(key).scrollIntoView({ behavior: 'smooth' });
+const handleClick = function (key) { 
+    const menuElement = document.getElementById(key);
+    menuElement.scrollIntoView({ behavior: 'smooth' });
 };
 
 function createItem(name) {
@@ -13,7 +14,7 @@ function createItem(name) {
 function Menu(props) {
     return(
 
-                <ul className='align sticky menu'>
+                <ul id='sub-menu' className='align sticky menu'>
                     { props.items.map(name => createItem(name)) }
                 </ul>
             )
