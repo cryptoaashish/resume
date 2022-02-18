@@ -1,7 +1,10 @@
 import './index.css';
 
 function Header(props) {
-    return (<header>{props.name} {props.email}</header>);
+    return (<header>
+                <div className='logo'>{props.name}</div> 
+                <div className='email'>{props.email}</div>
+            </header>);
 };
 
 export default Header;

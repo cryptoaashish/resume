@@ -1,10 +1,10 @@
 import './index.css';
 
-const about = function(props) {
+const About = function(props) {
     return (
-        <div id={props.name} key={props.name} className='boxed'>
+        <div id={props.name} key={props.name} className='about'>
             <h2>About Me</h2>
         </div>);
 };
 
-export default about;
+export default About;

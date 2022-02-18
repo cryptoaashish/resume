@@ -2,7 +2,7 @@ import './index.css';
 
 function carousel(props) {
     return (
-    <div className="boxed">
+    <div id="carousel" className="carousel">
         
     </div>
     )

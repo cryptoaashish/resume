@@ -1,0 +1,45 @@
+.top-button {
+    position: fixed;
+    bottom: 15px;
+    right: 177px;
+    z-index: 5;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    animation: customBorder 2500ms infinite;
+    opacity: 1;
+}
+
+@keyframes customBorder {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+      10%,
+      20% {
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(2);
+                transform: scale(2);
+      }
+  }
+
+.showButton {
+    display: inline-block;;
+}
+
+.removeButton {
+    display: none;
+}
+
+.top-button span {
+    font-size: 20px;
+    font-weight: bolder;
+}
